@@ -6,8 +6,9 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "watch": "webpack -w",
-    "serve": "node server",
-    "run": "node server; google-chrome -a 'http://localhost:3000'"
+    "serve": "node server.js",
+    "run": "node server.js; google-chrome -a 'http://localhost:3000'",
+    "start": "node server.js"
   },
   "author": "Roy Shell",
   "license": "MIT",
